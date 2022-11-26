@@ -13,7 +13,7 @@ const Footer: React.FC<FooterProps> = (props) => {
         <div className='container grid-list'>
           <div className='footer-brand'>
             <a href='#' className='logo'>
-              <h1>FourPro</h1>
+              <h1>......</h1>
               {/* <img
                     src='./assets/images/logo-light.svg'
                     width='162'
@@ -22,7 +22,7 @@ const Footer: React.FC<FooterProps> = (props) => {
                   /> */}
             </a>
 
-            <p className='footer-brand-text'>Transpiring Dreams To Fly High</p>
+            <p className='footer-brand-text'>..................</p>
 
             <div className='wrapper'>
               <span className='span'>Add:</span>
@@ -194,7 +194,7 @@ const Footer: React.FC<FooterProps> = (props) => {
           <p className='copyright'>
             Copyright 2022 All Rights Reserved by{' '}
             <a href='#' className='copyright-link'>
-              FourPro
+              .......
             </a>
           </p>
         </div>

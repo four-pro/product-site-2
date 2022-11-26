@@ -7,7 +7,14 @@ interface WhatSectionProps {}
 
 const WhatSection: React.FC<WhatSectionProps> = (props) => {
   return (
-    <section className='section course' id='whatWeOffer' aria-label='course'>
+    <section
+      className='section course'
+      id='whatWeOffer'
+      aria-label='course'
+      style={{
+        backgroundColor: '#EEF2FF',
+      }}
+    >
       <div className='container'>
         <h2
           className='h2'
@@ -17,44 +24,30 @@ const WhatSection: React.FC<WhatSectionProps> = (props) => {
         </h2>
         <p
           className='section-subtitle'
-          style={{ textTransform: 'none', paddingBottom: '30px' }}
+          style={{ textTransform: 'none', paddingBottom: '10px' }}
         >
-          We strive to empower our nurses and allied health professionals for
-          various assessment tests such as :-
+          We strive to empower our students with various training such as :-
         </p>
+
+        <h3
+          className='h3'
+          style={{ paddingBottom: '20px', textAlign: 'center' }}
+        >
+          Training{' '}
+        </h3>
 
         <ul className='grid-list'>
           <li>
             <div className='course-card'>
               <div className='card-content'>
                 <h3 className='h3'>
-                  <div className='card-title'>NCLEX-RN and NCLEX-PN</div>
+                  <div className='card-title'>Clinical SAS training</div>
                 </h3>
 
                 <p style={{ fontSize: '14px' }}>
-                  The NCLEX exam (National Council Licensure Examination) is
-                  used by state boards of nursing to decide whether or not a
-                  candidate is ready to practice as an entry-level nurse. There
-                  are two variations of the NCLEX, one for registered nurses
-                  (RNs) and one for practical nurses (PN).
-                </p>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div className='course-card'>
-              <div className='card-content'>
-                <h3 className='h3'>
-                  <div className='card-title'>MOH</div>
-                </h3>
-
-                <p style={{ fontSize: '14px' }}>
-                  MOH Exam stands for Ministry of Health Exam. The exam is
-                  conducted by the Ministry of Health UAE. It is a medical
-                  license exam that is conducted for appointing health care
-                  professionals who can work at different health care centers
-                  all over UAE.
+                  SAS technology is being used in pharmaceutical, biotech, and
+                  clinical research organisations to analyse clinical trial
+                  data.
                   <br />
                 </p>
               </div>
@@ -65,16 +58,15 @@ const WhatSection: React.FC<WhatSectionProps> = (props) => {
             <div className='course-card'>
               <div className='card-content'>
                 <h3 className='h3'>
-                  <div className='card-title'>Prometric and DHA</div>
+                  <div className='card-title'>Semicon training</div>
                 </h3>
 
                 <p style={{ fontSize: '14px' }}>
-                  Prometric Exam is a Nursing License Examination to ensure the
-                  competence of nurses to work in QATAR, OMAN & SAUDI ARABIA.
-                  <br />
-                  <br />
-                  DHA Exam offers licence for healthcare professionals to work
-                  in Dubai.
+                  With the help of professionals in the field who have more than
+                  20 years of experience in End to End VLSI product development
+                  in the semiconductor industry and have trained VLSI newcomers
+                  throughout their careers, you will work on live product
+                  development.
                 </p>
               </div>
             </div>
@@ -84,114 +76,75 @@ const WhatSection: React.FC<WhatSectionProps> = (props) => {
             <div className='course-card'>
               <div className='card-content'>
                 <h3 className='h3'>
-                  <div className='card-title'>HAAD</div>
+                  <div className='card-title'>Clinical Research</div>
                 </h3>
 
                 <p style={{ fontSize: '14px' }}>
-                  The HAAD Exam is a Nursing License Examination to ensure the
-                  competence of nurses with 3 years of clinical experience
-                  following registration, with one year in surgical ward and one
-                  in specialty care in any hospital to work in Abu Dhabi.
-                  <br />
+                  Around the world, there is a significant transformation in the
+                  drug and medical device development business.
                 </p>
               </div>
             </div>
           </li>
 
-          <li>
-            <div className='course-card'>
-              <div className='card-content'>
-                <h3 className='h3'>
-                  <div className='card-title'>CBT(UK) </div>
-                </h3>
-
-                <p style={{ fontSize: '14px' }}>
-                  The competence based test, also known as the CBT test is a 120
-                  multiple-choice online question exam set by the NMC to test
-                  your ability and knowledge to practice nursing safely in the
-                  UK.
-                  <br />
-                </p>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div className='course-card'>
-              <div className='card-content'>
-                <h3 className='h3'>
-                  <div className='card-title'>OSCE (UK)</div>
-                </h3>
-
-                <p style={{ fontSize: '14px' }}>
-                  The OSCE has been used to evaluate those areas most critical
-                  to performance of health care professionals, such as the
-                  ability to obtain/interpret data, problem-solve, teach,
-                  communicate, and handle unpredictable patient behavior
-                  <br />
-                </p>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div className='course-card'>
-              <div className='card-content'>
-                <h3 className='h3'>
-                  <div className='card-title'>IELTS</div>
-                </h3>
-
-                <p style={{ fontSize: '14px' }}>
-                  IELTS -- the International English Language Testing System is
-                  a standardized test for students and professionals to show
-                  their proficiency in the English language. IELTS has two
-                  versions: ‘Academic’ and ‘General training’
-                  <br />
-                </p>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div className='course-card'>
-              <div className='card-content'>
-                <h3 className='h3'>
-                  <div className='card-title'>OET</div>
-                </h3>
-
-                <p style={{ fontSize: '14px' }}>
-                  OET is Occupational English Test, is a test of the English
-                  language specifically designed for healthcare professionals,
-                  uses real-world healthcare scenarios . Recognised across
-                  language across Australia, Dubai, Ireland, New Zealand,
-                  Namibia, Singapore, and the UK.
-                  <br />
-                </p>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div className='course-card'>
-              <div className='card-content'>
-                <h3 className='h3'>
-                  <div className='card-title'>TOEFL</div>
-                </h3>
-
-                <p style={{ fontSize: '14px' }}>
-                  The TOEFL iBT test helps you stand out confidently in English.
-                  It's the only test that measures all four academic English
-                  skills — reading, listening, speaking and writing — the way
-                  they are actually used in a classroom, so you can be confident
-                  you'll stand out to universities where it counts.
-                  <br />
-                </p>
-              </div>
-            </div>
-          </li>
+          <li></li>
         </ul>
 
-        <ul className='about-list' style={{ paddingTop: '30px' }}>
+        <div style={{ display: 'grid', placeItems: 'center' }}>
+          <div className='course-card'>
+            <div className='card-content'>
+              <h3 className='h3'>
+                <div className='card-title'>Medical Coding</div>
+              </h3>
+
+              <p style={{ fontSize: '14px' }}>
+                The conversion of medical records into a shortcode
+                <br />
+                for use in the healthcare sector is known as medical <br />
+                coding.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <h3
+          className='h3'
+          style={{
+            paddingBottom: '20px',
+            textAlign: 'center',
+            paddingTop: '40px',
+          }}
+        >
+          Project{' '}
+        </h3>
+
+        <div style={{ display: 'grid', placeItems: 'center' }}>
+          <div className='course-card'>
+            <div className='card-content'>
+              <h3 className='h3'>
+                <div className='card-title'>Clinical SAS project</div>
+              </h3>
+
+              <p style={{ fontSize: '14px' }}></p>
+            </div>
+          </div>
+        </div>
+
+        {/* <ul className='grid-list' style={{ placeItems: 'center' }}>
+          <li>
+            <div className='course-card'>
+              <div className='card-content'>
+                <h3 className='h3'>
+                  <div className='card-title'>Clinical SAS project</div>
+                </h3>
+
+                <p style={{ fontSize: '14px' }}></p>
+              </div>
+            </div>
+          </li>
+        </ul> */}
+
+        {/* <ul className='about-list' style={{ paddingTop: '30px' }}>
           <li className='about-item'>
             <ArrowForwardIosIcon />
 
@@ -201,7 +154,7 @@ const WhatSection: React.FC<WhatSectionProps> = (props) => {
               attending the test.
             </p>
           </li>
-        </ul>
+        </ul> */}
 
         {/* <a href='#' className='btn has-before'>
           <span className='span'>Browse more courses</span>

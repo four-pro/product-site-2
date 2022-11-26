@@ -15,7 +15,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>FourPro - Transpiring Dreams To Fly High</title>
+        <title>Untitled web page</title>
       </Head>
 
       <div id='top'>
@@ -25,13 +25,13 @@ const Home: NextPage = () => {
           <article>
             <HomeSection />
 
-            <AboutSection />
+            {/* <AboutSection /> */}
 
             <WhySection />
 
             <WhatSection />
 
-            <ProcessSection />
+            {/* <ProcessSection /> */}
 
             {/* <section className='section stats' aria-label='stats'>
               <div className='container'>

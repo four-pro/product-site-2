@@ -11,25 +11,27 @@ const HomeSection: React.FC<HomeSectionProps> = (props) => {
       aria-label='home'
       style={{
         backgroundImage: "url('./assets/images/hero-bg.svg')",
+        backgroundColor: '#ffffff',
       }}
     >
       <div className='container'>
         <div className='hero-content'>
           <h1 className='h1 section-title'>
-            Transpiring <span className='span'>Dreams</span> To Fly High
+            Preparing <span className='span'>You</span> For Tomorrow
           </h1>
 
           <p className='hero-text'>
-            Training and catering the needs of numerous nurses and allied
-            healthcare professionals to pursue their aspiration of working in
-            premier hospitals in India & Abroad or in pursuing higher studies.
+            With our extensive coaching programmes for foreign education, we
+            assist you in pushing limits and achieving your goals. We provide
+            unequalled counselling and assistance.
+            {/* Realize your professional
+            potential in technology-enabled healthcare services with the help of
+            our training, advice, and placement assistance. */}
           </p>
 
-          <a href='#' className='btn has-before'>
+          {/* <a href='#' className='btn has-before'>
             <span className='span'>Find courses</span>
-
-            {/* <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon> */}
-          </a>
+          </a> */}
         </div>
         <div
         //   className='hero-banner'
@@ -47,12 +49,12 @@ const HomeSection: React.FC<HomeSectionProps> = (props) => {
             }}
           >
             <img
-              src='/test5.svg'
+              src='/coaching.jpg'
               //   width='240'
               //   height='370'
               alt='hero banner'
               className='img-cover'
-              style={{ backgroundColor: 'white' }}
+              // style={{ backgroundColor: 'white' }}
             />
           </div>
           {/* <img

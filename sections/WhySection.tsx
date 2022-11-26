@@ -6,10 +6,22 @@ interface WhySectionProps {}
 
 const WhySection: React.FC<WhySectionProps> = (props) => {
   return (
-    <section className='section category' aria-label='features' id='features'>
-      <div className='container'>
+    <section
+      className='section category'
+      aria-label='features'
+      id='features'
+      style={{
+        backgroundColor: '#ffffff',
+      }}
+    >
+      <div
+        className='container'
+        style={{
+          backgroundColor: '#ffffff',
+        }}
+      >
         <h2 className='h2 section-title'>
-          Why choose <span className='span'>FourPro</span>
+          Why choose <span className='span'>........</span>
         </h2>
 
         <p className='section-text'>
@@ -63,14 +75,14 @@ const WhySection: React.FC<WhySectionProps> = (props) => {
               </h3>
 
               <p className='card-text'>
-                Free Doubt Sessions, OSCE interactive classes, Simulation videos
-                and reviews, engaging sessions.
+                Free Doubt Sessions, interactive classes, Simulation videos and
+                reviews, engaging sessions.
               </p>
             </div>
           </li>
         </ul>
 
-        <ul className='about-list'>
+        {/* <ul className='about-list'>
           <li className='about-item'>
             <ArrowForwardIosIcon />
 
@@ -163,7 +175,7 @@ const WhySection: React.FC<WhySectionProps> = (props) => {
               for the right Candidates.
             </p>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </section>
   );

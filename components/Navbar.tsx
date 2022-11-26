@@ -5,8 +5,15 @@ interface NavbarProps {}
 
 const Navbar: React.FC<NavbarProps> = (props) => {
   return (
-    <header className='header' data-header>
-      <div className='container'>
+    <header
+      className='header'
+      data-header
+      style={{ backgroundColor: '#EEF2FF !important', position: 'fixed' }}
+    >
+      <div
+        className='container'
+        style={{ backgroundColor: '#EEF2FF !important' }}
+      >
         <a href='#' className='logo'>
           {/* <img
                 src='./assets/images/logo.svg'
@@ -14,7 +21,7 @@ const Navbar: React.FC<NavbarProps> = (props) => {
                 height='50'
                 alt='FourPro logo'
               /> */}
-          <h2 style={{ color: 'black' }}>FourPro</h2>
+          <h2 style={{ color: 'black' }}>.........</h2>
         </a>
 
         <nav className='navbar' data-navbar>
