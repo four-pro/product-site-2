@@ -617,7 +617,7 @@ body {
 .course-card {
   position: relative;
   background-color: var(--white);
-  border-radius: var(--radius-5);
+  border-radius: 18px;
   overflow: hidden;
 }
 
