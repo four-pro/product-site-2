@@ -80,59 +80,6 @@ const ClinicalResearch: React.FC<ClinicalResearchProps> = (props) => {
                   industries.
                 </p>
 
-                <ul className='grid-list'>
-                  <li>
-                    <div className='category-card'>
-                      <h3 className='h3'>
-                        <div className='card-title'>Individual focus</div>
-                      </h3>
-
-                      <p className='card-text'>
-                        Individual focus to provide conceptual clarity of all
-                        subjects in the syllabus
-                      </p>
-                    </div>
-                  </li>
-
-                  <li>
-                    <div className='category-card'>
-                      <h3 className='h3'>
-                        <div className='card-title'>Course materials</div>
-                      </h3>
-
-                      <p className='card-text'>
-                        All necessary course materials and training notes for
-                        the exams are provided as part of the course curriculum.
-                      </p>
-                    </div>
-                  </li>
-
-                  <li>
-                    <div className='category-card'>
-                      <h3 className='h3'>
-                        <div className='card-title'>Mentor system</div>
-                      </h3>
-
-                      <p className='card-text'>
-                        Mentor system for personalized attention and motivation.
-                      </p>
-                    </div>
-                  </li>
-
-                  <li>
-                    <div className='category-card'>
-                      <h3 className='h3'>
-                        <div className='card-title'>Sessions and classes</div>
-                      </h3>
-
-                      <p className='card-text'>
-                        Free Doubt Sessions, interactive classes, Simulation
-                        videos and reviews, engaging sessions.
-                      </p>
-                    </div>
-                  </li>
-                </ul>
-
                 {/* <ul className='about-list'>
           <li className='about-item'>
             <ArrowForwardIosIcon />
