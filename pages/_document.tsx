@@ -16,11 +16,8 @@ export default class MyDocument extends Document {
             content='width=device-width, initial-scale=1.0'
           />
 
-          <meta
-            name='title'
-            content='FourPro - Transpiring Dreams To Fly High'
-          />
-          <meta name='description' content='Product site for fourpro' />
+          <meta name='title' content='untitled' />
+          <meta name='description' content='Yet to release' />
 
           {/* <link rel='shortcut icon' href='./favicon.svg' type='image/svg+xml' />   */}
 
