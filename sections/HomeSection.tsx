@@ -14,7 +14,7 @@ const HomeSection: React.FC<HomeSectionProps> = (props) => {
         backgroundColor: '#ffffff',
       }}
     >
-      <div className='container'>
+      <div className='container' style={{ gap: '20px' }}>
         <div className='hero-content'>
           <h1 className='h1 section-title'>
             Preparing <span className='span'>You</span> For Tomorrow
@@ -33,23 +33,18 @@ const HomeSection: React.FC<HomeSectionProps> = (props) => {
             <span className='span'>Find courses</span>
           </a> */}
         </div>
-        <div
-        //   className='hero-banner'
-        //   style={{
-        //     position: 'relative',
-        //     alignItems: 'center',
-        //   }}
-        >
+        <div>
           <div
             className='img-holder two'
             style={{
               borderRadius: '20px',
               placeItems: 'center',
-              padding: '30px',
+              // padding: '30px',
+              marginBottom: '50px ',
             }}
           >
             <img
-              src='/coaching.jpg'
+              src='/coaching.webp'
               //   width='240'
               //   height='370'
               alt='hero banner'

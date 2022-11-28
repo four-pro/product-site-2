@@ -1273,7 +1273,7 @@ body {
    * HERO
    */
 
-  .hero .container {
+  /* .hero .container {
     grid-template-columns: 1fr 1fr;
     align-items: center;
   }
@@ -1285,7 +1285,7 @@ body {
 
   .hero .btn {
     margin-inline: 0;
-  }
+  } */
 
   /**
    * ABOUT
