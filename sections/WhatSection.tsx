@@ -2,10 +2,12 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import { useRouter } from 'next/router';
 
 interface WhatSectionProps {}
 
 const WhatSection: React.FC<WhatSectionProps> = (props) => {
+  const router = useRouter();
   return (
     <section
       className='section course'
@@ -72,7 +74,14 @@ const WhatSection: React.FC<WhatSectionProps> = (props) => {
             </div>
           </li>
 
-          <li>
+          <li
+            style={{
+              cursor: 'pointer',
+            }}
+            onClick={() => {
+              router.push('/clinical-research');
+            }}
+          >
             <div className='course-card'>
               <div className='card-content'>
                 <h3 className='h3'>
